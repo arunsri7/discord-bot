@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+require('dotenv').config();
 const client = new Discord.Client()
 key = process.env.API_KEY
 client.login(key)
