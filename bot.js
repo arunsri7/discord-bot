@@ -26,6 +26,6 @@ client.on('guildMemberAdd', member => {
 client.on('message',(msg)=>{
     var today = new Date();
     if(msg.content.startsWith(prefix) && msg.content.toLowerCase().includes('time')){
-    msg.reply(today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() ( 5.5 * 60 * 60 * 1000 ))
+    msg.reply(today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds())
     }
 })
